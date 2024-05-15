@@ -1,0 +1,130 @@
+.my-header{
+    background-color: #f6f9fc;
+    padding: 20px 0px ;
+}
+.header-content{
+
+}
+.header-content h6{
+  color: blue;  
+}
+.header-content h2{
+    border-bottom:3px solid blue ;
+    width: 60%;
+    padding-bottom: 10px;
+}
+.header-content p{
+    color: #c5d9ea;
+    width: 89%;
+    font-weight: 700;
+}
+.pricing-table{
+    
+   
+}
+
+/* btn */
+body .btn-primary{
+    background-color: red !important;
+    border-color:red;
+    padding: 10px 40px ;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    border:red ;
+    border-radius: 30px;
+    
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:0 ;
+    background-color: rgb(43, 0, 255);
+    border-color:rgb(43, 0, 255);
+    z-index: -1;
+    transition: .6s;
+    border-radius: 30px;
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+body .btn-primary:hover{
+    border:red ;
+}
+
+.pricing-table-item{
+    
+}
+.pricing-table-item{
+    margin-right: 2%;
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .1);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.p-hedder{
+    border-bottom: 1px solid rgb(190, 176, 176);
+    padding: 10px 0px ;
+    transition: .4s;
+}
+.p-hedder h5{}
+.p-hedder h1{}
+.p-hedder:hover{
+    background-color: blue;
+    color: #fff;
+}
+.p-item{
+    padding: 10px 0px ;
+    transition: .4s;
+}
+.p-item:hover{
+    background-color: blue;
+    color: #fff;
+}
+.p-item ul{}
+.p-item ul li{
+    list-style: none;
+}
+
+
+
+.mean-beaner-section{
+    
+}
+.beaner-section{
+    background-image: url("https://i.postimg.cc/GpmXDfNf/free-bg.jpg");
+    text-align: center;
+    color: #faf9fc;
+    padding: 50px 0px;
+    position: relative;
+    z-index: 1;
+    
+}
+.beaner-content{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.beaner-section::after{
+    content: "";
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(14, 31, 246, 0.7);
+    z-index: -1;
+}
+.last-section-left{
+    background-color: blue;
+    padding: 40px;
+    color: #fff;
+}
+.last-section-right{
+    box-shadow: 5px 6px 50px 0 rgba(98, 120, 223, .3);
+    padding: 40px;
+}
